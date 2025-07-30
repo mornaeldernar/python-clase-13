@@ -12,6 +12,7 @@ plt.xlabel('Fecha')
 plt.ylabel('BPD')
 plt.tight_layout()
 grafico_path = '../datos/grafico_produccion_html.png'
+nombre_img = 'grafico_produccion_html.png'
 plt.savefig(grafico_path)
 plt.close()
 
@@ -25,7 +26,7 @@ html = f"""
 <h2>Resumen estadístico</h2>
 {resumen}
 <h2>Gráfico de producción</h2>
-<img src='{grafico_path}' width='600'>
+<img src='{nombre_img}' width='600'>
 </body>
 </html>
 """

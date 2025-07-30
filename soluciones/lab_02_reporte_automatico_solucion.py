@@ -7,6 +7,8 @@ df = pd.read_csv('../datos/datos_produccion_automatizada_limpio.csv', parse_date
 # Resumen estadístico
 describe = df.describe()
 
+df.groupby('fecha')['produccion_bpd'].sum().plot(kind='bar')
+
 # Gráfico de producción
 plt.figure(figsize=(8,4))
 plt.plot(df['fecha'], df['produccion_bpd'], marker='o')

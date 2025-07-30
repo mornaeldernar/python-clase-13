@@ -13,7 +13,7 @@ plt.title('Producción diaria')
 plt.xlabel('Fecha')
 plt.ylabel('BPD')
 plt.tight_layout()
-grafico_path = '../datos/grafico_produccion.png'
+grafico_path = r'../datos/grafico_produccion.png'
 plt.savefig(grafico_path)
 plt.close()
 

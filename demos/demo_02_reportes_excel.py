@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas  as pd
 
 # Cargar datos limpios
 df = pd.read_csv('../datos/datos_produccion_automatizada_limpio.csv', parse_dates=['fecha'])

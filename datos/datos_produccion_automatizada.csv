@@ -6,7 +6,7 @@ fecha,pozo_id,campo,produccion_bpd,presion_psi,temperatura_f,agua_porcentaje,gas
 2024-01-02 00:00:00,PZ101,Campo Sur,1160,1760,146,15,17,Activo
 2024-01-02 06:00:00,PZ101,Campo Sur,1180,1780,148,16,16,Activo
 2024-01-02 12:00:00,PZ101,Campo Sur,1200,1800,150,17,15,Activo
-2024-01-02 18:00:00,PZ101,Campo Sur,1170,1770,147,15,18,Activo
+2024-01-02 18:00:00,PZ101,Campo Sur,,,,15,18,Activo
 2024-01-03 00:00:00,PZ101,Campo Sur,1190,1790,149,16,17,Activo
 2024-01-03 06:00:00,PZ101,Campo Sur,1220,1820,152,18,15,Activo
 2024-01-03 12:00:00,PZ101,Campo Sur,1240,1840,154,19,14,Activo
